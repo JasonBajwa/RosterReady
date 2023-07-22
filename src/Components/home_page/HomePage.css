@@ -1,0 +1,23 @@
+.wrapper{
+   margin-top: 0;
+}
+body{
+    background-color: white;
+    margin:0;
+    padding:0;
+}
+
+
+.formsWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.PlayerForm {
+    margin-bottom: 20px;
+  }
+  
+.EditPlayer {
+    margin-top: 2000px;
+  }
+  

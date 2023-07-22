@@ -1,0 +1,55 @@
+.edit-form {
+  background-color: #F5F5F5;
+  width: 25%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 35%;
+  position: absolute;
+  }
+  
+  .edit-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+    margin:0;
+    text-align: center;
+    height: 2rem;
+  }
+
+  .edHead{
+    background-color: #DB7D48;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin: 0;
+    padding:0;
+  }
+
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form input[type="text"],
+  .edit-form input[type="number"],
+  .edit-form input[type="photo"] {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form button[type="button"] {
+    background-color: #DB7D48;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .edit-form button[type="button"]:hover {
+    background-color: #006F8A;
+  }
+  

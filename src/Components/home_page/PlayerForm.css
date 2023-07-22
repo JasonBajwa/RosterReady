@@ -1,0 +1,60 @@
+.forms{
+    background-color: #F5F5F5;
+    width: 25%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    margin-left: 35%;
+    position: absolute;
+}
+
+input{
+    background-color:#D9D9D9;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.addHead{
+    background-color: #DB7D48;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin: 0;
+    padding:0;
+}
+.addText{
+    color: white;
+    margin:0;
+    text-align: center;
+    height: 2rem;
+}
+.body{
+    margin:0;
+    padding:0;
+}
+
+
+/* Add this to your PlayerForm.css file */
+
+button {
+    margin-top: 10px;
+    background-color: #DB7D48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4c5055;
+  }
+  
+  /* button.delete {
+    background-color: #e74c3c;
+  } */
+  
+  /* button.delete:hover {
+    background-color: #c0392b;
+  } */
+  
